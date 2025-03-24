@@ -21,10 +21,10 @@ def get_season(month: int) -> str:
 
 get_season(6)
 
-def foo(num_1: int, num_2: int, num_3: int) -> bool:
+def foo_1(num_1: int, num_2: int, num_3: int) -> bool:
     print("yes" if num_1 > 10 and num_2 > 10 and num_3 > 10 else "no")
 
-foo(45,12,1)
+foo_1(45,12,1)
 
 def find_sum(num_list: list) -> int:
     res = 0
